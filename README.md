@@ -53,7 +53,7 @@ CREATE TABLE `SECKEYINFO` (
 
 在双端分别创建对应的SHM,写好配置文件
 ```json
-# ClientSecKey
+//ClientSecKey
 {
     "ClientID":"China-Herbin-002",
     "ServerID":"China-HangZhou-001",
@@ -63,7 +63,7 @@ CREATE TABLE `SECKEYINFO` (
     "ShmMaxNode":1
 }
 
-# ServerSecKey
+// ServerSecKey
 {
     "ServerID":"China-HangZhou-001",
     "Port":8888,
@@ -75,7 +75,7 @@ CREATE TABLE `SECKEYINFO` (
 
 }
 
-#ClientDown
+// ClientDown
 {
     "ip":"192.168.168.132",
     "port":10018,
@@ -84,7 +84,7 @@ CREATE TABLE `SECKEYINFO` (
 }
 
 
-#ServerDown
+// ServerDown
 {
     "Port":10018,
     "ShmKey":"/home/lihua/projects/ServerSecKey/bin/x64/Debug/shm",
